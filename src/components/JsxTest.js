@@ -5,6 +5,7 @@ import style from "../index.module.css";
 
 export default class JsxTest extends Component {
   render() {
+    
     const user = {firstName: 'tom', lastName: 'jerry'}
     const greet = <p>hello everyone.</p>
     function formatName(user) {
